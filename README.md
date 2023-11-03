@@ -88,8 +88,7 @@ Run the code to train and evaluate the SMS spam classifier.
 ![Alt text](screenshots/confusion_matrix.png)
 
 9. Accuracy Score
-![Alt text](Accuracy_Score.png)
-
+![Alt text](screenshots/Accuracy_Score.png)
 ## Packages And Libraries <a name="P&L"></a>
 -   `pandas`
 -   `re`
