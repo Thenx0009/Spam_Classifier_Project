@@ -9,8 +9,8 @@ A **spam classifier** using Natural Language Processing (NLP) is a machine learn
 - [Code Description](#code-description)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
+- [Packages And Libraries](#P&L)
+- [Author](#author)
 
 ## Introduction <a name="introduction"></a>
 
@@ -26,6 +26,7 @@ These instructions will help you get a copy of the project up and running on you
 
 Before you begin, ensure you have met the following requirements:
 
+- Having an understanding of Lemmatization, Stemming, Stop words, Bag of words, Naive Bayes Classifier
 - Dataset Link (https://archive.ics.uci.edu/dataset/228/sms+spam+collection)
 - Python (>=3.0)
 - Python libraries: pandas, nltk, sklearn
@@ -63,4 +64,38 @@ Run the code to train and evaluate the SMS spam classifier.
 ## Screenshots <a name="screenshots"></a>
 
 1. Dataset Frame
-![Alt text](<actual dataset frame1.png>)
+![Alt text](<screenshots/actual dataset frame1.png>)
+
+2. After Data Cleaning
+![Alt text](<screenshots/after data cleaning2.png>)
+
+3. Difference between Actual DataSet And Cleaning Dataset
+![Alt text](screenshots/difference3.png)
+
+4. Bag Of Words(X)
+![Alt text](<screenshots/X Bag_of_words4.png>)
+
+5. y = pd.get_dummies(messages['label'])
+![Alt text](<screenshots/y = pd.get_dummies(messages['label']).png>)
+
+6. y = y.iloc[:,1].values
+![Alt text](<screenshots/y = y.iloc[,1].values.png>)
+
+7. X(independent variable) & y(dependent variable)
+![Alt text](<screenshots/x and y variable.png>)
+
+8. Confusion Matrix
+![Alt text](screenshots/confusion_matrix.png)
+
+9. Accuracy Score
+![Alt text](Accuracy_Score.png)
+
+## Packages And Libraries <a name="P&L"></a>
+-   `pandas`
+-   `re`
+-   `nltk`
+-   `Scikit-learn`
+
+## Author <a name="author"></a>
+
+This Model is developed by Ayush Verma.
