@@ -3,8 +3,6 @@ import pandas as pd
 messages = pd.read_csv('C:/Users/INDIA/.spyder-py3/Spam Classifier/sms+spam+collection_Dataset/SMSSpamCollection', sep='\t', names=["label", "message"])
 
 
-
-
 ###Data Cleaning and Preprocessing using stemming technique
 import re
 import nltk
