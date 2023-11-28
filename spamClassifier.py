@@ -24,7 +24,7 @@ for i in range(0, len(messages)):
     
 ###Creating the Bag of Words(Document matrix) model
 from sklearn.feature_extraction.text import CountVectorizer
-cv = CountVectorizer(max_features = 5000)
+cv = CountVectorizer(max_features = 3000)
 X = cv.fit_transform(corpus).toarray()
 
 #Converting ham and spam into dummy variables
