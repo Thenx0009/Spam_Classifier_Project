@@ -52,7 +52,7 @@ The code is structured into several main sections:
 
 6. valuating the Model: Calculates and displays the confusion matrix and accuracy score for model performance evaluation.
 
-7. Creating the Streamlit App: Generates the [Colab+pycharm_code\app.py](app.py) file using the Streamlit library to create a user-friendly web application for spam detection.
+7. Creating the Streamlit App: Generates the [app.py](Colab+pycharm_code/app.py) file using the Streamlit library to create a user-friendly web application for spam detection.
 
 ## Usage <a name="usage"></a>
 You can use this code as a starting point for SMS spam classification. To use the program, follow these steps:
