@@ -78,7 +78,8 @@ Run the code to train and evaluate the SMS spam classifier.
 ![Alt text](<screenshots/Bag Of Words(X).PNG>)
 
 5. Tf-idf(X)
-![Alt text](screenshots/tfidf.PNG)
+
+    ![Alt text](screenshots/tfidf.PNG)
 
 6. (Y) Array of 0's & 1's of label('spam''ham')
    
@@ -94,7 +95,9 @@ Run the code to train and evaluate the SMS spam classifier.
 ![Alt text](screenshots/Accuracy_Score.png)
 
 10. Final Outcome
-![Alt text](<screenshots/final result.png>)
+
+    ![Alt text](<screenshots/final result.png>)
+    
 ## Packages And Libraries <a name="P&L"></a>
 -   `pandas`
 -   `re`
