@@ -1,6 +1,6 @@
 # Spam_Classifier_Project
 
-A **spam classifier** using **Natural Language Processing** (NLP) is a machine learning model designed to automatically categorize and filter out unwanted or irrelevant messages, typically in the context of emails or text messages. It analyzes the content of messages and applies NLP techniques to distinguish between legitimate and spam messages based on various features, such as the presence of specific keywords, patterns, or text characteristics. NLP-based spam classifiers use text processing and statistical methods to classify incoming messages as either spam or not spam.
+A **spam classifier** using **Natural Language Processing** (NLP) is a machine learning model designed to automatically categorize and filter out unwanted or irrelevant messages, typically in the context of emails or text messages. It analyzes the content of messages and applies NLP techniques to distinguish between legitimate and spam messages based on various features, such as the presence of specific keywords, patterns, or text characteristics.
  
  ## Table of Contents
 - [Introduction](#introduction)
@@ -97,7 +97,7 @@ Run the code to train and evaluate the SMS spam classifier.
 10. Final Outcome
 
     ![Alt text](<screenshots/final result.png>)
-    
+
 ## Packages And Libraries <a name="P&L"></a>
 -   `pandas`
 -   `re`
