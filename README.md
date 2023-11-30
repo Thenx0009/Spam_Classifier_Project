@@ -66,16 +66,16 @@ Run the code to train and evaluate the SMS spam classifier.
 ## Screenshots <a name="screenshots"></a>
 
 1. Dataset Frame
-![Alt text](<screenshots/actual dataset frame1.png>)
+![Alt text](<screenshots/Dataset Frame.PNG>)
 
 2. After Data Cleaning
-![Alt text](<screenshots/after data cleaning2.png>)
+![Alt text](<screenshots/After Data Cleaning.PNG>)
 
 3. Difference between Actual DataSet And Cleaning Dataset
-![Alt text](screenshots/difference3.png)
+![Alt text](<screenshots/Difference between Actual DataSet And Cleaning Dataset.PNG>)
 
 4. Bag Of Words(X)
-![Alt text](<screenshots/X Bag_of_words4.png>)
+![Alt text](<screenshots/Bag Of Words(X).PNG>)
 
 5. Tf-idf(X)
 ![Alt text](screenshots/tfidf.PNG)
@@ -84,7 +84,7 @@ Run the code to train and evaluate the SMS spam classifier.
 ![Alt text](screenshots/Y_variable.PNG)
 
 7. X(independent variable) & y(dependent variable)
-![Alt text](<screenshots/x and y variable.png>)
+![Alt text](<screenshots/x and y variablee.PNG>)
 
 8. Confusion Matrix
 ![Alt text](screenshots/confusion_matrix.png)
@@ -99,6 +99,8 @@ Run the code to train and evaluate the SMS spam classifier.
 -   `re`
 -   `nltk`
 -   `Scikit-learn`
+-   `Streamlit`
+-   `pickle`
 
 ## Author <a name="author"></a>
 
