@@ -52,6 +52,8 @@ The code is structured into several main sections:
 
 6. valuating the Model: Calculates and displays the confusion matrix and accuracy score for model performance evaluation.
 
+7. Creating the Streamlit App: Generates the [Colab+pycharm_code\app.py](app.py) file using the Streamlit library to create a user-friendly web application for spam detection.
+
 ## Usage <a name="usage"></a>
 You can use this code as a starting point for SMS spam classification. To use the program, follow these steps:
 
@@ -75,11 +77,11 @@ Run the code to train and evaluate the SMS spam classifier.
 4. Bag Of Words(X)
 ![Alt text](<screenshots/X Bag_of_words4.png>)
 
-5. y = pd.get_dummies(messages['label'])
-![Alt text](<screenshots/y = pd.get_dummies(messages['label']).png>)
+5. Tf-idf(X)
+![Alt text](screenshots/tfidf.PNG)
 
-6. y = y.iloc[:,1].values
-![Alt text](<screenshots/y = y.iloc[,1].values.png>)
+6. (Y) Array of 0's & 1's of label('spam''ham')
+![Alt text](screenshots/Y_variable.PNG)
 
 7. X(independent variable) & y(dependent variable)
 ![Alt text](<screenshots/x and y variable.png>)
@@ -88,8 +90,10 @@ Run the code to train and evaluate the SMS spam classifier.
 ![Alt text](screenshots/confusion_matrix.png)
 
 9. Accuracy Score
-
 ![Alt text](screenshots/Accuracy_Score.png)
+
+10. Final Outcome
+![Alt text](<screenshots/final result.png>)
 ## Packages And Libraries <a name="P&L"></a>
 -   `pandas`
 -   `re`
