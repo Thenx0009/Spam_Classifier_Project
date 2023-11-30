@@ -81,8 +81,8 @@ Run the code to train and evaluate the SMS spam classifier.
 ![Alt text](screenshots/tfidf.PNG)
 
 6. (Y) Array of 0's & 1's of label('spam''ham')
-
-![Alt text](screenshots/Y_variable.PNG)
+   
+    ![Alt text](screenshots/Y_variable.PNG)
 
 7. X(independent variable) & y(dependent variable)
 ![Alt text](<screenshots/x and y variablee.PNG>)
